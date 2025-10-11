@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BookRentalApplication",
+            "request": "launch",
+            "mainClass": "com.example.bookrental.BookRentalApplication",
+            "projectName": "serving-web-content-complete"
+        },
+        {
+            "type": "java",
             "name": "ServingWebContentApplication",
             "request": "launch",
             "mainClass": "com.example.servingwebcontent.ServingWebContentApplication",
