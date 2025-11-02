@@ -6,16 +6,14 @@
 - **Thành Viên:** Nguyễn Đình Quang
 - **Mã sinh viên:** 23010498
 ##
-- **Thành Viên:** Nguyễ Long Thủy
+- **Thành Viên:** Nguyễn Long Thủy
 - **Mã sinh viên:** 21012096   
 
 ## Hệ thống sẽ bao gồm các chức năng cơ bản sau:
 + Quản lý admin : Admin có mọi quyền thêm, sửa, xóa, cập nhật sách-nhân viên-khách hàng.
 + Quản lý sách: Thêm, sửa, xóa thông tin sách , cập nhật số lượng sách.
 + Quản lý khách hàng: Thêm, sửa, xóa, cập nhật thông tin khách hàng; xem lịch sử cho thuê hàng.
-+ Quản lý nhân viên : Thêm, sửa, xóa, cập nhật nhân viên , nhân viên quản lý sách-khách hàng. 
 + Tìm kiếm sách: Cho phép tìm kiếm sách theo tên.
-
 
 ## Đối tượng nghiên cứu
 Hệ thống tập trung vào quản lý các đối tượng chính trong thư viện, bao gồm:
@@ -23,13 +21,12 @@ Hệ thống tập trung vào quản lý các đối tượng chính trong thư 
 + Người quản lí : Thêm , sửa , xóa người quản lí-nhân viên-khách hàng-sách.
 + Sách: Thông tin về sách như tên sách, tác giả, thể loại, số lượng sách, giá bán.
 + Khách hàng: Quản lý danh sách khách hàng, bao gồm họ tên, thông tin liên hệ, địa chỉ , tên sách đã mua.
-+ Nhân viên : Quản lí nhân viên , nhân viên có quyền quản lí sách-khách hàng.
 
 ## Công nghệ sử dụng:
 + Giao diện Java Spring Boot.
 + Ngôn ngữ lập trình: Java .
 + Môi trường lập trình: Vscode.
-+ Lưu trữ dữ liệu: MySQL kết hợp sử dụng Aiven để lưu trữ thông tin : sách , khách hàng , nhân viên , admin.
++ Lưu trữ dữ liệu: MySQL kết hợp sử dụng Aiven để lưu trữ thông tin : sách , khách hàng , admin.
 
 ## Sơ đồ khối yêu cầu : 
 
